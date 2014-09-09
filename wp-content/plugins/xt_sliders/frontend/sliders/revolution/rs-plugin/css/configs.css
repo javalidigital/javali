@@ -1,0 +1,14 @@
+	.rev_bannercontainer {
+		padding:5px;
+		position:relative;
+		position:relative;
+		margin-left:auto;
+		margin-right:auto;
+	}
+
+  	.rev_banner{
+		position:relative;
+		overflow:hidden;
+   	}
+	
+	.tp-bullets .bullet.last{clear:none;}

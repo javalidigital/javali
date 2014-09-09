@@ -1,0 +1,1262 @@
+/* --------- Desktop --------- */
+@media (min-width: 1200px) {
+
+	.lead {
+		font-size: 44px;
+		margin: 44px 0 46px 0;
+		padding-right: 35%;
+	}
+	
+		
+	#parallax3, #parallax3 .pattern {
+		height:700px;
+	}
+	
+	#parallax4 .clients {
+		padding: 0 10%;
+	}
+	
+	#contact hr.gray {
+		margin: 37px 0 36px 0;
+	}
+	
+	.services {
+		height: 400px;
+		padding: 40px;
+	}
+	
+@-moz-document url-prefix()
+{
+	.services { height: auto; box-shadow: border-box; overflow: hidden; }
+}
+	
+	.services-list {
+		font-size: 16px;
+		margin-top: 15px;
+	}
+	
+	.services-title {
+		font-size: 20px;
+	}
+	
+	.display-slider {
+		margin: 55px 0 70px 0;
+	}
+	
+	#slidecaption {
+		padding: 0 9%;
+	}
+	
+	header#home {
+		background-size: 100%;
+		background-position: top center;
+	}
+	
+	.bg1, .bg2, .bg3 {
+		background-size: 130%;
+	}
+	
+	.bg4 {
+		background-size: 130%;
+	}
+	
+	nav #fluid-nav li a, nav #fixed-nav li a {
+		font-size: 14px;
+	}
+	
+	nav #fluid-nav li, nav #fixed-nav li {
+		display: inline-block;
+		margin-left: 16px;
+	}
+
+	
+}
+
+
+/* --------- iPad Vertical --------- */
+@media (min-width: 768px) and (max-width: 979px) {
+
+	.laptop-slider {
+		margin-bottom: 80px;
+	}
+	
+	.display-slider {
+		height: auto;
+		background: none;
+		margin-bottom: 140px;
+	}
+	
+	.display-slider .flexslider {
+		width: 724px;
+		position: relative;
+		left: 50%;
+		margin-left: -362px;
+	}
+	
+	.lead {
+		padding-right: 0;
+	}
+	
+	.slider-text {
+		padding-right: 30%;
+	}
+	
+	.slider-title {
+		letter-spacing: 1px;
+	}
+	
+	.services {
+		height: 247px;
+		padding: 20px;
+	}
+	
+	.services-list {
+		font-size: 13px;
+		margin-top: 0;
+	}
+	
+	.clients li {
+		margin: 5px;
+	}
+	
+	.clients li img {
+		width: 130px;
+		height: auto;
+	}
+	
+	#parallax4 {
+		height: 360px;
+	}
+	
+	#parallax4 .vertical-text,
+	#parallax4 .pattern {
+		height: 360px;
+	}
+	
+	#parallax3, #parallax3 .pattern {
+		height: 380px;
+	}
+	
+	#parallax3 .embed-container {
+		margin-top: 40px;
+	}
+	
+	#slidecaption { 
+		font-size: 36px;
+		top: 35%;
+	}
+	
+	#slidecaption .sub-caption {
+		font-size: 20px;
+		padding: 0;
+	}
+	
+	.bg1, .bg4 {
+		background-size: 930px;
+		background-attachment: scroll;
+	}
+	
+	.bg2, .bg3 {
+		background-size: 910px;
+		background-attachment: scroll;
+	}
+	
+	.selectnav {
+		display: block;
+		width: 300px !important;
+		position: absolute;
+		right: 0;
+	}
+	
+	#mainnav .span8 {
+		position: relative;
+	}
+	
+	nav#mainnav .selectnav {
+		margin-top: 8px;
+	}
+	
+	.blog-post-title {
+		font-size: 28px;
+	}
+	
+	#parallax4 h2 {
+		display: none;
+	}
+	
+}
+
+
+/* --------- Mobile Phones --------- */
+@media (max-width: 767px) {
+
+	#adv .button-right .btn {
+		float: left;
+	}
+	
+	.lead {
+		font-size: 28px;
+		margin: 44px 0 46px 0;
+		padding-right: 0;
+	}
+	
+	.slider-services {
+		margin-bottom: 33px;
+	}
+	
+	
+	.profile {
+		margin-bottom: 30px;
+	}
+	
+	.laptop-slider {
+		height: auto;
+		background: none;
+		margin: 15px 0 59px 0;
+	}
+	
+	.display-slider {
+		height: auto;
+		background: none;
+		margin: 15px 0 60px 0;
+	}
+	
+	.laptop-slider .flexslider, .display-slider .flexslider {
+		width: 460px;
+		position: relative;
+		left: 50%;
+		margin-left: -230px;
+	}
+	
+	.project-intro {
+		padding: 0;
+	}
+	
+	.parallax-title {
+		font-size: 28px;
+		letter-spacing: 1px;
+	}
+	
+	#twitter-parallax .twitter-title {
+		font-size: 28px;
+	}
+	
+	#twitter-parallax .username {
+		font-size: 16px;
+	}
+	
+	#twitter-parallax .tweet {
+		font-size: 18px;
+	}
+	
+	#parallax3, #parallax3 .pattern {
+		height: 366px;
+	}
+	
+	#parallax3 .embed-container {
+		margin-top: 40px;
+	}
+	
+	.clients li img {
+		width: 100px;
+		height: auto;
+	}
+	
+	#parallax4 {
+		height: 360px;
+	}
+	
+	#parallax4 h2 {
+		display: none;
+	}
+	
+	#parallax4 .vertical-text,
+	#parallax4 .pattern {
+		height: 360px;
+	}
+	
+	.portfolio-slider {
+		margin-bottom: 44px;
+		margin-top: 33px;
+	}
+	
+	.option-set {
+		margin: 0;
+	}
+	
+	.option-set li {
+		font-size: 12px;
+		margin-right: 8px;
+	}
+	
+	.address {
+		margin-top: 30px;
+	}
+	
+	.lead-small {
+		font-size: 16px;
+		margin-top: 30px;
+	}
+	
+	.title {
+		font-size: 28px;
+		letter-spacing: 1px;
+	}
+	
+	.page {
+		padding-top: 0px;
+		padding-bottom: 50px;
+	}
+
+	#projects {
+		padding-top: 65px;
+	}
+	
+	.project-intro h3 {
+		font-size: 20px;
+	}
+	
+	#slidecaption { 
+		font-size: 28px;
+		top: 35%;
+		padding: 0 2%;
+	}
+	
+	#slidecaption .sub-caption {
+		font-size: 16px;
+		padding: 0;
+	}
+	
+	header#home, header#home .pattern, header#home .header-bg {
+		height: 560px;
+	}
+	
+	.wrapper {
+		top: 560px;
+	}
+	
+	.bg1, .bg2, .bg3, .bg4 {
+		background-size: 200%;
+	}
+	
+	.selectnav {
+		display: block;
+	}
+	
+	#topnav .selectnav {
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 73px;
+	}
+	
+	nav#mainnav .selectnav {
+		margin-top: 8px;
+		width: 352px;
+		margin-left: 0;
+	}
+	
+	nav#mainnav .logo {
+		display: none;
+	}
+	
+	.bg1, .bg2, .bg3, .bg4 {
+		background-attachment: scroll;
+		background-size: 150%;
+	}
+	
+	.blog-post-title {
+		font-size: 24px;
+	}
+	
+	.blog-post {
+		padding-top: 80px;
+	}
+	
+	.blog-post p {
+		font-size: 14px;
+	}
+	
+	.blog-post hr {
+		margin-top: 70px;
+	}
+	
+	.fancybox-title {
+		display: none;
+	}
+	
+
+}
+
+
+/* --------- iPhone Vertical  --------- */
+@media (max-width: 479px) {
+
+	.laptop-slider .flexslider, .display-slider .flexslider {
+		width: 300px;
+		position: relative;
+		left: 50%;
+		margin-left: -150px;
+	}
+	
+	#slidecaption { 
+		font-size: 20px;
+		top: 36%;
+		padding:  2%;
+	}
+	
+	#slidecaption .sub-caption {
+		font-size: 14px;
+		padding: 0;
+	}
+	
+	#topnav .selectnav {
+		width: 300px;
+		top: 120px;
+	}
+	
+	nav#mainnav .selectnav {
+		width: 300px;
+	}
+	
+	header#home .logo {
+		text-align: center;
+	}
+	
+	body {
+		overflow-x: hidden;
+	}
+	
+	.bg1, .bg2, .bg3, .bg4 {
+		background-size: 220%;
+	}
+
+
+}
+
+/*
+	XiaoThemes Base Theme Stylesheet - Responsive Rules
+	Version: 1.1
+	Credits: Based in the amazing Skeleton Responsive Framework
+*/
+
+/* Table of Content
+==================================================
+	#Media Queries
+	#Font-Face */
+
+/* #Media Queries
+================================================== */
+
+	.content-wrapper {
+		overflow-x: hidden;
+	}
+
+	/* Smaller than standard 960 (devices and browsers) */
+	@media only screen and (max-width: 959px) {
+
+		/* #Top Header
+		----------------------------------*/
+
+		/* #Header
+		----------------------------------*/
+
+		/* #Menus
+		----------------------------------*/
+
+		/* #Content & Title Wrapper / Breadcrumbs
+		----------------------------------*/
+
+		/* #Blog Standard
+		----------------------------------*/
+
+			/* = Post Formats = */
+
+		/* #Blog Medium
+		----------------------------------*/
+
+			/* = Post Formats = */
+
+		/* #Blog Navigation
+		----------------------------------*/
+
+		/* #Sidebar & Widgets
+		----------------------------------*/
+
+		/* #Footer & Widgets
+		----------------------------------*/
+
+		/* #Down Footer
+		----------------------------------*/
+
+		/* #Page Layouts
+		----------------------------------*/
+
+		/* #Single Post
+		----------------------------------*/
+
+		/* #Comments
+		----------------------------------*/
+
+		/* #Portfolio
+		----------------------------------*/
+
+		/* #Single Project
+		----------------------------------*/
+
+		/* #Shortcodes
+		----------------------------------*/
+
+		/* #Sliders
+		----------------------------------*/
+
+		/* #WooCommerce
+		----------------------------------*/
+
+	}
+
+	/* Tablet Portrait size to standard 960 (devices and browsers) */
+	@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+		/* #Top Header
+		----------------------------------*/
+
+		/* #Header
+		----------------------------------*/
+
+		/* #Menus
+		----------------------------------*/
+
+		/* #Content & Title Wrapper / Breadcrumbs
+		----------------------------------*/
+
+		/* #Blog Standard
+		----------------------------------*/
+
+			/* = Post Formats = */
+
+			/* Quote */
+
+			body .post.post-mansory .post-details .post-quote {
+				padding: 25px 5px;
+			}
+
+			body .post.post-mansory .post-details .post-quote p, 
+			body .post.post-mansory .post-details .post-quote p:before,
+			body .post.post-mansory .post-details .post-quote p:after {
+				font-size: 16px;
+			}
+
+
+		/* #Blog Medium
+		----------------------------------*/
+
+			/* = Post Formats = */
+
+		/* #Blog Navigation
+		----------------------------------*/
+
+		/* #Sidebar & Widgets
+		----------------------------------*/
+
+		/* #Footer & Widgets
+		----------------------------------*/
+
+		/* #Down Footer
+		----------------------------------*/
+
+		/* #Page Layouts
+		----------------------------------*/
+
+		/* #Single Post
+		----------------------------------*/
+
+		/* #Comments
+		----------------------------------*/
+
+		/* #Portfolio
+		----------------------------------*/
+			.projects-counter {
+				display: none;
+			}
+
+			.title-wrapper-portfolio h1 {
+				max-width: 395px;
+			}
+
+		/* #Single Project
+		----------------------------------*/
+
+		/* #Shortcodes
+		----------------------------------*/
+
+		/* #Sliders
+		----------------------------------*/
+
+		/* #WooCommerce
+		----------------------------------*/
+			/* Cart */
+
+			body.woocommerce .cart-collaterals .cross-sells, 
+			body.woocommerce-page .cart-collaterals .cross-sells {
+				width: 64%;
+			}
+
+			body.woocommerce .cart-collaterals .cart_totals,
+			body.woocommerce-page .cart-collaterals .cart_totals,
+			body.woocommerce .cart-collaterals .shipping_calculator, 
+			body.woocommerce-page .cart-collaterals .shipping_calculator {
+				width: 33%;
+			}
+
+		/* Header Content */
+
+		#slidecaption {
+			top: 25%;
+		}
+		
+	}
+
+	/* All Mobile Sizes (devices and browser) */
+
+	@media only screen and (max-width: 767px) {
+
+		.one_half, .one_third, .two_third, .three_fourth, .one_fourth, .one_fifth, .two_fifth, 
+		.three_fifth, .four_fifth, .one_sixth, .five_sixth {
+			clear: both !important;
+			float: none !important;
+			display: block;
+			width: auto !important;
+			margin: 0;
+			margin-bottom: 15px !important;
+		}
+
+		div.last {
+			margin-bottom: 0 !important;
+		}
+
+		/* #Top Header
+		----------------------------------*/
+
+		/* #Header
+		----------------------------------*/
+
+		header nav {
+			margin-top: 20px;
+		}
+
+		header nav select {
+			width: 100%;
+			margin: 0;
+		}
+
+		#slidecaption {
+			top: 30%;
+			padding: 0;
+		}
+
+		#slidecaption .big-text h1 {
+			font-size: 20px;
+		}
+		
+		#slidecaption .lead-text {
+			font-size: 14px;
+		}
+
+		nav#mainnav #logo-secondary {
+			display: none;
+		}
+
+		nav#mainnav select {
+			margin: 0;
+			width: 100%;
+		}
+
+		/* #Menus
+		----------------------------------*/
+
+		/* #Content & Title Wrapper / Breadcrumb
+		----------------------------------*/
+
+		h1 {
+			font-size: 28px;
+		}
+
+		/* #Blog Standard
+		----------------------------------*/
+
+			/* = Post Formats = */
+
+			body .post.post-medium .post-details .post-infos .post-title,
+			body .post.post-large .post-details .post-infos .post-title {
+				padding-right: 0;
+				background: transparent;
+			}
+
+			body .post.post-large .post-details .post-infos {
+				width: auto;
+			}
+
+			/* Quote */
+
+			body .post.post-mansory .post-details .post-quote {
+				padding: 25px 5px;
+			}
+
+			body .post.post-large .post-details .post-quote p, 
+			body .post.post-large .post-details .post-quote p:before,
+			body .post.post-large .post-details .post-quote p:after,
+			body .post.post-medium .post-details .post-quote p, 
+			body .post.post-medium .post-details .post-quote p:before,
+			body .post.post-medium .post-details .post-quote p:after {
+				font-size: 16px;
+			}
+
+			.post-full, .blog-full .navigation {
+				width: 100%;
+			}
+
+		/* #Blog Medium
+		----------------------------------*/
+
+			/* = Post Formats = */
+
+			body .post.post-medium .side-post {
+				float: none;
+				width: auto;
+				margin-bottom: 15px;
+			}
+
+			body .post.post-medium .post-details-side {
+				float: none;
+				width: auto;
+				margin-left: 0;
+			}
+
+			  body .post.post-medium .post-meta {
+				padding-top: 15px;
+			}
+
+		/* #Blog Mansory */
+
+			body .blog-mansory-full .post,
+			body .blog-mansory-sidebar .post {
+				width: auto;
+			}
+
+
+		/* #Blog Navigation
+		----------------------------------*/
+
+		/* #Sidebar & Widgets
+		----------------------------------*/
+
+			.sidebar {
+				clear: both !important;
+				float: none !important;
+				display: block;
+				width: auto !important;
+				margin-bottom: 20px;
+			}
+
+			.sidebar.sidebar-left, .sidebar.sidebar-right {
+				float: none;
+				width: auto;
+				margin-bottom: 40px;
+				border-top: 5px solid #ddd;
+				padding-top: 39px;
+			}
+
+		/* #Footer & Widgets
+		----------------------------------*/
+
+		/* #Down Footer
+		----------------------------------*/
+
+		/* #Page Layouts
+		----------------------------------*/
+
+			.content {
+				clear: both !important;
+				float: none !important;
+				display: block;
+				width: auto !important;
+				margin-bottom: 20px;
+			}
+
+			.page.page-left, .page.page-right {
+				float: none;
+				width: auto;
+				margin-bottom: 39px;
+			}
+
+
+		/* #Single Post
+		----------------------------------*/
+
+			.post.post-single .post-details .post-infos {
+				width: auto;
+				float: none;
+			}
+
+			.post.post-single {
+				position: relative;
+			}
+
+			.post.post-single .post-details .post-format-icon {
+				position: absolute;
+				top: 0;
+				right: 0;
+			}
+
+			.post-single .post-tags {
+				margin-left: 0;
+			}
+
+			body .post-single .share-post .share-icons a {
+				margin-bottom: 5px !important;
+			}
+
+			body .post-single .author-meta .author-image {
+				width: 65px;
+			}
+
+			body .post-single .author-meta .author-details {
+				width: auto;
+				margin-left: 80px;
+			}
+
+		/* #Comments
+		----------------------------------*/
+
+			.comments-list {
+				margin-left: 0;
+			}
+
+			.comments .blog_comment_det .blog_comment_name_det .comment-reply-link {
+				font-size: 10px;
+			}
+
+			body .comments .children {
+				margin-left: 20px;
+			}
+
+
+		/* #Portfolio
+		----------------------------------*/
+
+			.xt-filters-wrapper.dropdown {
+				margin-left: 0;
+			}
+
+		/* #Single Project
+		----------------------------------*/
+
+
+			.project-media {
+				clear: both !important;
+				float: none !important;
+				display: block;
+				width: auto !important;
+				margin-bottom: 20px;
+			}
+
+			.project-content {
+				clear: both !important;
+				float: none !important;
+				display: block;
+				width: auto !important;
+			}
+
+			#project-description .project-info .project-mounth {
+				margin-left: 0;
+				display: block;
+			}
+
+			a.launch {
+				float: left;
+			}
+
+
+		/* #Shortcodes
+		----------------------------------*/
+
+			/* Callout Right Adjust */
+
+			body .callout-right .callout-col-left {
+				margin-right: 0;
+				float: none;
+				clear: both;
+				margin-bottom: 10px;
+			}
+
+			body .callout-right .callout-col-right {
+				margin: 0;
+				float: none;
+				clear: both;
+			}
+
+			/* iFrame Adjust (like gMap) */
+
+			.the-content iframe {
+				max-width: 100%;
+			}
+
+			/* Tabs to Vertical Orientation */
+
+			body .xt_tabs_framed_container .panes {
+				border-top: none;
+			}
+
+			body ul.xt_tabs_framed li {
+				display: block;
+				float: none;
+				margin: 0;
+				padding: 0;
+			}
+
+			body ul.xt_tabs_framed li a {
+				border: none;
+				margin: 0;
+				border-bottom: 1px solid #ddd;
+			}
+
+			body ul.xt_tabs_framed li.current a {
+				border: none;
+			}
+
+			/* Vertical Tabs to Vertical Orientation */
+
+			body ul.xt_tabs_vertical {
+				float: none;
+				width: auto;
+				margin-bottom: 15px !important;
+			}
+
+			body .xt_tabs_vertical_container .panes {
+				margin: 0;
+			}
+
+			/* Gallery */
+
+			body .gallery .gallery-item {
+				width: auto !important;
+			}
+
+			/* Big Titles */
+
+			.big-title h1 {
+				font-size: 40px;
+			}
+
+			/* Big Text */
+
+			.big-text h1 {
+				font-size: 32px;
+			}
+
+			.big-text h2 {
+				font-size: 28px;
+			}
+
+			.big-text h3 {
+				font-size: 30px;
+			}
+
+			.big-text h4 {
+				font-size: 20px;
+			}
+
+			.big-text h5 {
+				font-size: 15px;
+			}
+
+			.big-text h6 {
+				font-size: 12px;
+			}
+
+			/* Call to Action Icon */
+
+			body a.heart-circle {
+				display: block;
+				margin: 0 auto 10px;
+			}
+
+		/* #Sliders
+		----------------------------------*/
+
+		/* #WooCommerce
+		----------------------------------*/
+
+		/* Shop */
+
+			body.woocommerce .woocommerce-result-count,
+			body.woocommerce-page .woocommerce-result-count {
+				float: none;
+				display: block;
+				margin-bottom: 10px;
+			}
+
+			body.woocommerce .woocommerce-ordering, 
+			body.woocommerce-page .woocommerce-ordering {
+				float: none;
+				display: block;
+			}
+
+			body.woocommerce ul.products li.product, body.woocommerce-page ul.products li.product {
+				width: 100%;
+				margin-bottom: 30px;
+			}
+
+			body.woocommerce ul.products li.product.last, body.woocommerce-page ul.products li.product.last {
+				margin-bottom: 30px;
+			}
+
+			.product .added_to_cart {
+				text-indent: 0;
+				display: inline-block;
+			}
+
+			/* Single Product */
+
+			body.woocommerce div.product div.images, 
+			body.woocommerce #content div.product div.images, 
+			body.woocommerce-page div.product div.images, 
+			body.woocommerce-page #content div.product div.images,
+			body.woocommerce div.product div.summary, 
+			body.woocommerce #content div.product div.summary, 
+			body.woocommerce-page div.product div.summary, 
+			body.woocommerce-page #content div.product div.summary {
+				width: auto;
+				float: none;
+			}
+
+			body.woocommerce div.product .woocommerce-tabs ul.tabs li,
+			body.woocommerce-page div.product .woocommerce-tabs ul.tabs li {
+				padding: 0 10px;
+			}
+
+			body.woocommerce div.product .woocommerce-tabs ul.tabs li a,
+			body.woocommerce-page div.product .woocommerce-tabs ul.tabs li a {
+				font-size: 12px;
+			}
+
+			body.woocommerce .related ul.products li.product, body.woocommerce .related ul li.product, body.woocommerce .upsells.products ul.products li.product, body.woocommerce .upsells.products ul li.product, body.woocommerce-page .related ul.products li.product, body.woocommerce-page .related ul li.product, body.woocommerce-page .upsells.products ul.products li.product, body.woocommerce-page .upsells.products ul li.product {
+				width: auto;
+				float: none;
+				margin-bottom: 30px;
+			}
+
+			/* Cart */
+
+			body.woocommerce table.cart .product-thumbnail, 
+			body.woocommerce-page table.cart .product-thumbnail {
+				display: none;
+			}
+
+			.product-remove {
+				padding-left: 3px !important;
+				padding-right: 3px !important;
+			}
+
+			body.woocommerce table.cart td.actions .coupon,  
+			body.woocommerce-page table.cart td.actions .coupon {
+				width: auto;
+				float: none;
+				margin-bottom: 20px;
+			}
+
+			.actions .button {
+				margin-bottom: 10px !important;
+			}
+
+			body.woocommerce .cart-collaterals .cross-sells, 
+			body.woocommerce-page .cart-collaterals .cross-sells {
+				width: auto;
+				float: none;
+				margin-bottom: 20px;
+			}
+
+			body.woocommerce .cart-collaterals .cross-sells ul.products li, 
+			body.woocommerce-page .cart-collaterals .cross-sells ul.products li {
+				width: 100%;
+				margin-left: 0;
+				margin-right: 0;
+				float: none;
+			}
+
+			body.woocommerce .cart-collaterals .cart_totals,
+			body.woocommerce-page .cart-collaterals .cart_totals,
+			body.woocommerce .cart-collaterals .shipping_calculator, 
+			body.woocommerce-page .cart-collaterals .shipping_calculator {
+				width: auto;
+				float: none;
+			}
+
+			/* Checkout */
+
+			body.woocommerce form.checkout_coupon .form-row, 
+			body.woocommerce-page form.checkout_coupon .form-row,
+			body.woocommerce form.login .form-row, 
+			body.woocommerce-page form.login .form-row {
+				width: auto;
+				float: none;
+			}
+
+			body.woocommerce .col2-set .col-1, 
+			body.woocommerce-page .col2-set .col-1,
+			body.woocommerce .col2-set .col-2, 
+			body.woocommerce-page .col2-set .col-2 {
+				width: auto;
+				float: none;
+				margin-bottom: 20px;
+			}
+
+			body.woocommerce #payment #place_order, 
+			body.woocommerce-page #payment #place_order {
+				float: none;
+			}
+
+			/* My Account Not Logged In */
+
+			body.woocommerce form.login, 
+			body.woocommerce-page form.login, 
+			body.woocommerce form.register, 
+			body.woocommerce-page form.register {
+				padding: 0;
+			}
+
+			body.woocommerce-checkout.woocommerce form.login, 
+			body.woocommerce-checkout.woocommerce-page form.login, 
+			body.woocommerce-checkout.woocommerce form.register, 
+			body.woocommerce-checkout.woocommerce-page form.register {
+				padding: 20px;
+			}
+
+	}
+
+	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+		/* #Top Header
+		----------------------------------*/
+
+		/* #Header
+		----------------------------------*/
+
+		/* #Menus
+		----------------------------------*/
+
+		/* #Content & Title Wrapper / Breadcrumbs
+		----------------------------------*/
+
+		/* #Blog Standard
+		----------------------------------*/
+
+			/* = Post Formats = */
+
+		/* #Blog Medium
+		----------------------------------*/
+
+			/* = Post Formats = */
+
+		/* #Blog Navigation
+		----------------------------------*/
+
+		/* #Sidebar & Widgets
+		----------------------------------*/
+
+		/* #Footer & Widgets
+		----------------------------------*/
+
+		/* #Down Footer
+		----------------------------------*/
+
+		/* #Page Layouts
+		----------------------------------*/
+
+		/* #Single Post
+		----------------------------------*/
+
+		/* #Comments
+		----------------------------------*/
+
+		/* #Portfolio
+		----------------------------------*/
+
+		/* #Single Project
+		----------------------------------*/
+
+		/* #Shortcodes
+		----------------------------------*/
+
+		/* #Sliders
+		----------------------------------*/
+
+		/* #WooCommerce
+		----------------------------------*/
+
+	}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+	@media only screen and (max-width: 479px) {
+
+		/* #Top Header
+		----------------------------------*/
+
+		/* #Header
+		----------------------------------*/
+
+		/* #Menus
+		----------------------------------*/
+
+		/* #Content & Title Wrapper / Breadcrumbs
+		----------------------------------*/
+
+		/* #Blog Standard
+		----------------------------------*/
+
+			/* = Post Formats = */
+
+		/* #Blog Medium
+		----------------------------------*/
+
+			/* = Post Formats = */
+
+		/* #Blog Navigation
+		----------------------------------*/
+
+		/* #Sidebar & Widgets
+		----------------------------------*/
+
+		/* #Footer & Widgets
+		----------------------------------*/
+
+		/* #Down Footer
+		----------------------------------*/
+
+		/* #Page Layouts
+		----------------------------------*/
+
+		/* #Single Post
+		----------------------------------*/
+
+		/* #Comments
+		----------------------------------*/
+
+		/* #Portfolio
+		----------------------------------*/
+
+		/* #Single Project
+		----------------------------------*/
+
+		/* #Shortcodes
+		----------------------------------*/
+
+		/* #Sliders
+		----------------------------------*/
+
+		/* #WooCommerce
+		----------------------------------*/
+		
+	}

@@ -1,0 +1,1725 @@
+	#xt_slider_wp-options-buttons {
+		background-color: #f8f8f8;
+		border: 1px solid #f2f2f2;
+		border-radius: 5px;
+		-webkit-border-radius: 5px;
+	    -khtml-border-radius: 5px;
+	    -moz-border-radius: 5px;
+	    margin: 10px 0;
+		padding: 10px;
+	}
+
+	#xt_slider_wp-options-buttons h3 {
+		margin: 5px 10px;
+	}
+
+	#xt_slider_wp-options-table th,
+	#xt_slider_wp-options-table td {
+		padding: 10px;
+		overflow: visible !important;
+	}
+
+	#xt_slider_wp-options-table th label {
+		display: block;
+		width: auto;
+	}
+
+	#xt_slider_wp-options-table .xt_slider_wp-input-help {
+		color: #888888;
+		display: inline;
+		font-size: 11px;
+		padding: 0;
+		padding-left: 10px;
+		position: relative;
+	}
+
+	#xt_slider_wp-options-table .select_wrapper span {
+		display: none;
+	}
+
+	#sample-sc-p {
+		display: none;
+	}
+
+	#sample-sc {
+		-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+		-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+		box-sizing: border-box;         /* Opera/IE 8+ */
+		width: 100%;
+		height: 100px;
+	}
+
+	#description-sc {
+	    margin: 0;
+	    padding: 0;
+	    width: 370px;
+	}
+
+	#xt_slider_wp-shortcode-options .help-xt {
+		text-align: center;
+	}
+
+	#xt_slider_wp-shortcode-options .help-xt a, #xt_slider_wp-shortcode-options .help-xt a:active {
+		background: #f5f5f5;
+		background: -moz-linear-gradient(top, #f9f9f9, #f0f0f0);
+		background: -webkit-gradient(linear, left top, left bottom, from(#f9f9f9), to(#f0f0f0));
+		border: 1px solid #dedede;
+		border-color: #dedede #d8d8d8 #d3d3d3;
+		border-radius: 4px;
+		box-shadow: 0 1px 2px #eaeaea, inset 0 1px 0 #fbfbfb;
+		color: #555;
+		cursor: pointer;
+		display: inline-block;
+		font: bold 12px/1em HelveticaNeue, Arial, sans-serif;
+		moz-border-radius: 4px;
+		moz-box-shadow: 0 1px 2px #eaeaea, inset 0 1px 0 #fbfbfb;
+		outline: none;
+		padding: 8px 11px;
+		text-decoration: none;
+		text-shadow: 0 1px 0 #fff;
+		webkit-border-radius: 4px;
+		webkit-box-shadow: 0 1px 2px #eaeaea, inset 0 1px 0 #fbfbfb;
+
+		background: #e6433d;
+		background: -moz-linear-gradient(top, #f8674b, #d54746);
+		background: -webkit-gradient(linear, left top, left bottom, from(#f8674b), to(#d54746));
+		border-color: #d1371c #d1371c #9f220d;
+		box-shadow: 0 1px 2px #d6d6d6, inset 0 1px 0 #ff9573;
+		color: #fff !important;
+		moz-box-shadow: 0 1px 2px #d6d6d6, inset 0 1px 0 #ff9573;
+		text-shadow: 0 1px 1px #961a07;
+		webkit-box-shadow: 0 1px 2px #d6d6d6, inset 0 1px 0 #ff9573;
+		font-weight: bold !important;
+
+		border-radius: 5px;
+		font-size: 16px;
+		font-weight: normal;
+		moz-border-radius: 5px;
+		padding: 12px 15px;
+		webkit-border-radius: 5px;
+	}
+
+
+/*******************************
+*	TOOLTIP
+/*******************************/
+
+	.tooltip {
+		display: none;
+		position: absolute;
+		top: -7px;
+		left: 37px;
+		width: 218px;
+		height: auto;
+		background: #f3fca4;
+		padding: 5px;
+		border: 1px solid #d9b72e;
+	}
+	
+	
+	.tooltip-link img {
+		vertical-align: middle;
+		padding-bottom: 3px;
+	}
+	
+	.tool-text {
+		display: block;
+		color: #333;
+	}
+	
+	.select_wrapper {
+		display: inline;
+	}
+	
+	.first-col {
+		width: 150px;
+	}
+	
+	#preview-ss {
+		display: none;
+	}
+
+
+
+
+	.icon-selector {
+		padding: 20px 0;
+
+	}
+
+	.icon-selector a {
+		display: inline-block;
+		margin: 3px;
+	}
+
+	.icon-selector a .icon- {
+		display: none !important;
+	}
+
+/***
+
+../../../assets/
+
+***/
+
+/********************************
+*	[social_button] Social Button
+*********************************/
+
+	.socialbutton-shortcode a .span-icon {
+		width: 32px;
+		height: 32px;
+		display: inline-block;
+	}
+
+	.socialbutton-shortcode a .icon-twitter {
+		background-image: url(../../../assets/images/socialbutton/twitter_bird.png);
+	}
+
+	.socialbutton-shortcode a .icon-facebook {
+		background-image: url(../../../assets/images/socialbutton/facebook.png);
+	}
+
+	.socialbutton-shortcode a .icon-heart {
+		background-image: url(../../../assets/images/socialbutton/heart.png);
+	}
+
+	.socialbutton-shortcode a .icon-linkedin {
+		background-image: url(../../../assets/images/socialbutton/linkedin.png);
+	}
+
+	.socialbutton-shortcode a .icon-pinterest {
+		background-image: url(../../../assets/images/socialbutton/pinterest.png);
+	}
+
+	.socialbutton-shortcode a .icon-podcast {
+		background-image: url(../../../assets/images/socialbutton/podcast.png);
+	}
+
+	.socialbutton-shortcode a .icon-rss {
+		background-image: url(../../../assets/images/socialbutton/rss.png);
+	}
+
+	.socialbutton-shortcode a .icon-share_this {
+		background-image: url(../../../assets/images/socialbutton/share_this.png);
+	}
+
+	.socialbutton-shortcode a .icon-star {
+		background-image: url(../../../assets/images/socialbutton/star.png);
+	}
+
+	.socialbutton-shortcode a .icon-vimeo {
+		background-image: url(../../../assets/images/socialbutton/vimeo.png);
+	}
+
+/********************************
+*	[social] Social Icons
+*********************************/
+
+	.social-shortcode a .span-icon {
+		width: 32px;
+		height: 32px;
+		display: inline-block;
+	}
+
+	.social-shortcode a .icon-addthis {
+		background-image: url(../../../assets/images/social/noborder/addthis.png);
+	}
+
+	.social-shortcode a .icon-behance {
+		background-image: url(../../../assets/images/social/noborder/behance.png);
+	}
+
+	.social-shortcode a .icon-blogger {
+		background-image: url(../../../assets/images/social/noborder/blogger.png);
+	}
+
+	.social-shortcode a .icon-digg {
+		background-image: url(../../../assets/images/social/noborder/digg.png);
+	}
+
+
+	.social-shortcode a .icon-dribbble {
+		background-image: url(../../../assets/images/social/noborder/dribbble.png);
+	}
+
+	.social-shortcode a .icon-facebook {
+		background-image: url(../../../assets/images/social/noborder/facebook.png);
+	}
+
+	.social-shortcode a .icon-facebook {
+		background-image: url(../../../assets/images/social/noborder/facebook.png);
+	}
+
+	.social-shortcode a .icon-flickr {
+		background-image: url(../../../assets/images/social/noborder/flickr.png);
+	}
+
+	.social-shortcode a .icon-gplus {
+		background-image: url(../../../assets/images/social/noborder/gplus.png);
+	}
+
+	.social-shortcode a .icon-lastfm {
+		background-image: url(../../../assets/images/social/noborder/lastfm.png);
+	}
+
+	.social-shortcode a .icon-like {
+		background-image: url(../../../assets/images/social/noborder/like.png);
+	}
+
+	.social-shortcode a .icon-linkedin {
+		background-image: url(../../../assets/images/social/noborder/linkedin.png);
+	}
+
+	.social-shortcode a .icon-livejournal {
+		background-image: url(../../../assets/images/social/noborder/livejournal.png);
+	}
+
+	.social-shortcode a .icon-myspace {
+		background-image: url(../../../assets/images/social/noborder/myspace.png);
+	}
+
+	.social-shortcode a .icon-myspace2 {
+		background-image: url(../../../assets/images/social/noborder/myspace2.png);
+	}
+
+	.social-shortcode a .icon-paypal{
+		background-image: url(../../../assets/images/social/noborder/paypal.png);
+	}
+
+	.social-shortcode a .icon-picasa{
+		background-image: url(../../../assets/images/social/noborder/picasa.png);
+	}
+
+	.social-shortcode a .icon-reddit{
+		background-image: url(../../../assets/images/social/noborder/reddit.png);
+	}
+
+	.social-shortcode a .icon-rss{
+		background-image: url(../../../assets/images/social/noborder/rss.png);
+	}
+
+	.social-shortcode a .icon-sharethis{
+		background-image: url(../../../assets/images/social/noborder/sharethis.png);
+	}
+
+	.social-shortcode a .icon-skype{
+		background-image: url(../../../assets/images/social/noborder/skype.png);
+	}
+
+	.social-shortcode a .icon-spotify{
+		background-image: url(../../../assets/images/social/noborder/spotify.png);
+	}
+
+	.social-shortcode a .icon-stumbleupon{
+		background-image: url(../../../assets/images/social/noborder/stumbleupon.png);
+	}
+
+	.social-shortcode a .icon-tumblr{
+		background-image: url(../../../assets/images/social/noborder/tumblr.png);
+	}
+
+	.social-shortcode a .icon-twitter{
+		background-image: url(../../../assets/images/social/noborder/twitter.png);
+	}
+
+	.social-shortcode a .icon-vimeo{
+		background-image: url(../../../assets/images/social/noborder/vimeo.png);
+	}
+
+	.social-shortcode a .icon-wordpress{
+		background-image: url(../../../assets/images/social/noborder/wordpress.png);
+	}
+
+	.social-shortcode a .icon-youtube{
+		background-image: url(../../../assets/images/social/noborder/youtube.png);
+	}
+	
+/********************************
+*	[color_icon] Color Icons
+*********************************/
+
+	.color-shortcode a .span-icon {
+		width: 32px;
+		height: 32px;
+		display: inline-block;
+	}
+
+	.color-shortcode a .icon-64bit {
+		background-image: url(../../../assets/images/color-icons/64bit.png);
+	}
+
+	.color-shortcode a .icon-add {
+		background-image: url(../../../assets/images/color-icons/add.png);
+	}
+
+	.color-shortcode a .icon-advanced {
+		background-image: url(../../../assets/images/color-icons/advanced.png);
+	}
+
+
+	.color-shortcode a .icon-alert {
+		background-image: url(../../../assets/images/color-icons/alert.png);
+	}
+
+	.color-shortcode a .icon-annouce {
+		background-image: url(../../../assets/images/color-icons/annouce.png);
+	}
+
+	.color-shortcode a .icon-application {
+		background-image: url(../../../assets/images/color-icons/application.png);
+	}
+
+	.color-shortcode a .icon-apps {
+		background-image: url(../../../assets/images/color-icons/apps.png);
+	}
+
+	.color-shortcode a .icon-archive {
+		background-image: url(../../../assets/images/color-icons/archive.png);
+	}
+
+	.color-shortcode a .icon-arrow {
+		background-image: url(../../../assets/images/color-icons/arrow.png);
+	}
+
+	.color-shortcode a .icon-arrow-090 {
+		background-image: url(../../../assets/images/color-icons/arrow-090.png);
+	}
+
+	.color-shortcode a .icon-arrow-180 {
+		background-image: url(../../../assets/images/color-icons/arrow-180.png);
+	}
+
+	.color-shortcode a .icon-arrow-270 {
+		background-image: url(../../../assets/images/color-icons/arrow-270.png);
+	}
+
+	.color-shortcode a .icon-arrow-down {
+		background-image: url(../../../assets/images/color-icons/arrow-down.png);
+	}
+
+	.color-shortcode a .icon-arrow-left {
+		background-image: url(../../../assets/images/color-icons/arrow-left.png);
+	}
+
+	.color-shortcode a .icon-arrow-right {
+		background-image: url(../../../assets/images/color-icons/arrow-right.png);
+	}
+
+	.color-shortcode a .icon-arrow-up {
+		background-image: url(../../../assets/images/color-icons/arrow-up.png);
+	}
+
+	.color-shortcode a .icon-back {
+		background-image: url(../../../assets/images/color-icons/back.png);
+	}
+
+	.color-shortcode a .icon-balloon{
+		background-image: url(../../../assets/images/color-icons/balloon.png);
+	}
+
+	.color-shortcode a .icon-ban{
+		background-image: url(../../../assets/images/color-icons/ban.png);
+	}
+
+	.color-shortcode a .icon-ban2{
+		background-image: url(../../../assets/images/color-icons/ban2.png);
+	}
+
+	.color-shortcode a .icon-battery{
+		background-image: url(../../../assets/images/color-icons/battery.png);
+	}
+
+	.color-shortcode a .icon-bell{
+		background-image: url(../../../assets/images/color-icons/bell.png);
+	}
+
+	.color-shortcode a .icon-bell2{
+		background-image: url(../../../assets/images/color-icons/bell2.png);
+	}
+
+	.color-shortcode a .icon-book{
+		background-image: url(../../../assets/images/color-icons/book.png);
+	}
+
+	.color-shortcode a .icon-bookmark{
+		background-image: url(../../../assets/images/color-icons/bookmark.png);
+	}
+
+	.color-shortcode a .icon-bookmark2{
+		background-image: url(../../../assets/images/color-icons/bookmark2.png);
+	}
+
+	.color-shortcode a .icon-bookmarked{
+		background-image: url(../../../assets/images/color-icons/bookmarked.png);
+	}
+
+	.color-shortcode a .icon-box{
+		background-image: url(../../../assets/images/color-icons/box.png);
+	}
+
+	.color-shortcode a .icon-box2{
+		background-image: url(../../../assets/images/color-icons/box2.png);
+	}
+
+	.color-shortcode a .icon-briefcase{
+		background-image: url(../../../assets/images/color-icons/briefcase.png);
+	}
+
+	.color-shortcode a .icon-burn{
+		background-image: url(../../../assets/images/color-icons/burn.png);
+	}
+
+	.color-shortcode a .icon-calendar2{
+		background-image: url(../../../assets/images/color-icons/calendar2.png);
+	}
+
+	.color-shortcode a .icon-calendar{
+		background-image: url(../../../assets/images/color-icons/calendar.png);
+	}
+
+	.color-shortcode a .icon-camera{
+		background-image: url(../../../assets/images/color-icons/camera.png);
+	}
+
+	.color-shortcode a .icon-cart{
+		background-image: url(../../../assets/images/color-icons/cart.png);
+	}
+
+	.color-shortcode a .icon-cc{
+		background-image: url(../../../assets/images/color-icons/cc.png);
+	}
+
+	.color-shortcode a .icon-cc2{
+		background-image: url(../../../assets/images/color-icons/cc2.png);
+	}
+
+	.color-shortcode a .icon-certificate{
+		background-image: url(../../../assets/images/color-icons/certificate.png);
+	}
+
+	.color-shortcode a .icon-chalkboard{
+		background-image: url(../../../assets/images/color-icons/chalkboard.png);
+	}
+
+	.color-shortcode a .icon-chart{
+		background-image: url(../../../assets/images/color-icons/chart.png);
+	}
+
+	.color-shortcode a .icon-chart{
+		background-image: url(../../../assets/images/color-icons/chart.png);
+	}
+
+	.color-shortcode a .icon-chat{
+		background-image: url(../../../assets/images/color-icons/chat.png);
+	}
+
+	.color-shortcode a .icon-chat2{
+		background-image: url(../../../assets/images/color-icons/chat2.png);
+	}
+
+	.color-shortcode a .icon-chat3{
+		background-image: url(../../../assets/images/color-icons/chat3.png);
+	}
+
+	.color-shortcode a .icon-chip{
+		background-image: url(../../../assets/images/color-icons/chip.png);
+	}
+
+	.color-shortcode a .icon-clock{
+		background-image: url(../../../assets/images/color-icons/clock.png);
+	}
+
+	.color-shortcode a .icon-coffee{
+		background-image: url(../../../assets/images/color-icons/coffee.png);
+	}
+
+	.color-shortcode a .icon-color{
+		background-image: url(../../../assets/images/color-icons/color.png);
+	}
+
+	.color-shortcode a .icon-color2{
+		background-image: url(../../../assets/images/color-icons/color2.png);
+	}
+
+	.color-shortcode a .icon-color-swatch{
+		background-image: url(../../../assets/images/color-icons/color-swatch.png);
+	}
+
+	.color-shortcode a .icon-computer{
+		background-image: url(../../../assets/images/color-icons/computer.png);
+	}
+
+	.color-shortcode a .icon-computer2{
+		background-image: url(../../../assets/images/color-icons/computer2.png);
+	}
+
+	.color-shortcode a .icon-computer3{
+		background-image: url(../../../assets/images/color-icons/computer3.png);
+	}
+
+	.color-shortcode a .icon-counter{
+		background-image: url(../../../assets/images/color-icons/counter.png);
+	}
+
+	.color-shortcode a .icon-cross{
+		background-image: url(../../../assets/images/color-icons/cross.png);
+	}
+
+	.color-shortcode a .icon-cross2{
+		background-image: url(../../../assets/images/color-icons/cross2.png);
+	}
+
+	.color-shortcode a .icon-design{
+		background-image: url(../../../assets/images/color-icons/design.png);
+	}
+
+	.color-shortcode a .icon-desktop{
+		background-image: url(../../../assets/images/color-icons/desktop.png);
+	}
+
+	.color-shortcode a .icon-disc{
+		background-image: url(../../../assets/images/color-icons/disc.png);
+	}
+
+	.color-shortcode a .icon-disc2{
+		background-image: url(../../../assets/images/color-icons/disc2.png);
+	}
+
+	.color-shortcode a .icon-disc3{
+		background-image: url(../../../assets/images/color-icons/disc3.png);
+	}
+
+	.color-shortcode a .icon-document{
+		background-image: url(../../../assets/images/color-icons/document.png);
+	}
+
+	.color-shortcode a .icon-document2{
+		background-image: url(../../../assets/images/color-icons/document2.png);
+	}
+
+	.color-shortcode a .icon-document-text{
+		background-image: url(../../../assets/images/color-icons/document-text.png);
+	}
+
+	.color-shortcode a .icon-down{
+		background-image: url(../../../assets/images/color-icons/down.png);
+	}
+
+	.color-shortcode a .icon-download{
+		background-image: url(../../../assets/images/color-icons/download.png);
+	}
+
+	.color-shortcode a .icon-edit{
+		background-image: url(../../../assets/images/color-icons/edit.png);
+	}
+
+	.color-shortcode a .icon-edit2 {
+		background-image: url(../../../assets/images/color-icons/edit2.png);
+	}
+
+	.color-shortcode a .icon-error {
+		background-image: url(../../../assets/images/color-icons/error.png);
+	}
+
+	.color-shortcode a .icon-exclamation {
+		background-image: url(../../../assets/images/color-icons/exclamation.png);
+	}
+
+	.color-shortcode a .icon-exit {
+		background-image: url(../../../assets/images/color-icons/exit.png);
+	}
+
+	.color-shortcode a .icon-facebook {
+		background-image: url(../../../assets/images/color-icons/facebook.png);
+	}
+
+	.color-shortcode a .icon-fastforward {
+		background-image: url(../../../assets/images/color-icons/fastforward.png);
+	}
+
+	.color-shortcode a .icon-favorite {
+		background-image: url(../../../assets/images/color-icons/favorite.png);
+	}
+
+	.color-shortcode a .icon-f-happy{
+		background-image: url(../../../assets/images/color-icons/f-happy.png);
+	}
+
+	.color-shortcode a .icon-film {
+		background-image: url(../../../assets/images/color-icons/film.png);
+	}
+
+	.color-shortcode a .icon-film2 {
+		background-image: url(../../../assets/images/color-icons/film2.png);
+	}
+
+	.color-shortcode a .icon-flag {
+		background-image: url(../../../assets/images/color-icons/flag.png);
+	}
+
+	.color-shortcode a .icon-f-lol {
+		background-image: url(../../../assets/images/color-icons/f-lol.png);
+	}
+
+	.color-shortcode a .icon-folder {
+		background-image: url(../../../assets/images/color-icons/folder.png);
+	}
+
+	.color-shortcode a .icon-folder2 {
+		background-image: url(../../../assets/images/color-icons/folder2.png);
+	}
+
+	.color-shortcode a .icon-folder3 {
+		background-image: url(../../../assets/images/color-icons/folder3.png);
+	}
+
+	.color-shortcode a .icon-forward {
+		background-image: url(../../../assets/images/color-icons/forward.png);
+	}
+
+	.color-shortcode a .icon-f-sad {
+		background-image: url(../../../assets/images/color-icons/f-sad.png);
+	}
+
+	.color-shortcode a .icon-f-sleep {
+		background-image: url(../../../assets/images/color-icons/f-sleep.png);
+	}
+
+	.color-shortcode a .icon-f-smile {
+		background-image: url(../../../assets/images/color-icons/f-smile.png);
+	}
+
+	.color-shortcode a .icon-gear {
+		background-image: url(../../../assets/images/color-icons/gear.png);
+	}
+
+	.color-shortcode a .icon-gift {
+		background-image: url(../../../assets/images/color-icons/gift.png);
+	}
+
+	.color-shortcode a .icon-gift2 {
+		background-image: url(../../../assets/images/color-icons/gift2.png);
+	}
+
+	.color-shortcode a .icon-glass {
+		background-image: url(../../../assets/images/color-icons/glass.png);
+	}
+
+	.color-shortcode a .icon-globe {
+		background-image: url(../../../assets/images/color-icons/globe.png);
+	}
+
+	.color-shortcode a .icon-globe2 {
+		background-image: url(../../../assets/images/color-icons/globe2.png);
+	}
+
+	.color-shortcode a .icon-globe3 {
+		background-image: url(../../../assets/images/color-icons/globe3.png);
+	}
+
+	.color-shortcode a .icon-hdrive {
+		background-image: url(../../../assets/images/color-icons/hdrive.png);
+	}
+
+	.color-shortcode a .icon-help {
+		background-image: url(../../../assets/images/color-icons/help.png);
+	}
+
+	.color-shortcode a .icon-help2 {
+		background-image: url(../../../assets/images/color-icons/help2.png);
+	}
+
+	.color-shortcode a .icon-home {
+		background-image: url(../../../assets/images/color-icons/home.png);
+	}
+
+	.color-shortcode a .icon-home2 {
+		background-image: url(../../../assets/images/color-icons/home2.png);
+	}
+
+	.color-shortcode a .icon-icomputer {
+		background-image: url(../../../assets/images/color-icons/icomputer.png);
+	}
+
+	.color-shortcode a .icon-id {
+		background-image: url(../../../assets/images/color-icons/id.png);
+	}
+
+	.color-shortcode a .icon-id2 {
+		background-image: url(../../../assets/images/color-icons/id2.png);
+	}
+
+	.color-shortcode a .icon-image {
+		background-image: url(../../../assets/images/color-icons/image.png);
+	}
+
+	.color-shortcode a .icon-image2 {
+		background-image: url(../../../assets/images/color-icons/image2.png);
+	}
+
+	.color-shortcode a .icon-image3 {
+		background-image: url(../../../assets/images/color-icons/image3.png);
+	}
+
+	.color-shortcode a .icon-info {
+		background-image: url(../../../assets/images/color-icons/info.png);
+	}
+
+	.color-shortcode a .icon-info2 {
+		background-image: url(../../../assets/images/color-icons/info2.png);
+	}
+
+	.color-shortcode a .icon-info3 {
+		background-image: url(../../../assets/images/color-icons/info3.png);
+	}
+
+	.color-shortcode a .icon-install {
+		background-image: url(../../../assets/images/color-icons/install.png);
+	}
+
+	.color-shortcode a .icon-jump {
+		background-image: url(../../../assets/images/color-icons/jump.png);
+	}
+
+	.color-shortcode a .icon-key {
+		background-image: url(../../../assets/images/color-icons/key.png);
+	}
+
+	.color-shortcode a .icon-keymac {
+		background-image: url(../../../assets/images/color-icons/keymac.png);
+	}
+
+	.color-shortcode a .icon-keywin {
+		background-image: url(../../../assets/images/color-icons/keywin.png);
+	}
+
+	.color-shortcode a .icon-label {
+		background-image: url(../../../assets/images/color-icons/label.png);
+	}
+
+	.color-shortcode a .icon-lock {
+		background-image: url(../../../assets/images/color-icons/lock.png);
+	}
+
+	.color-shortcode a .icon-lock2 {
+		background-image: url(../../../assets/images/color-icons/lock2.png);
+	}
+
+	.color-shortcode a .icon-lockoff {
+		background-image: url(../../../assets/images/color-icons/lockoff.png);
+	}
+
+	.color-shortcode a .icon-love {
+		background-image: url(../../../assets/images/color-icons/love.png);
+	}
+
+	.color-shortcode a .icon-mail {
+		background-image: url(../../../assets/images/color-icons/mail.png);
+	}
+
+	.color-shortcode a .icon-mail2 {
+		background-image: url(../../../assets/images/color-icons/mail2.png);
+	}
+
+	.color-shortcode a .icon-mail3 {
+		background-image: url(../../../assets/images/color-icons/mail3.png);
+	}
+
+	.color-shortcode a .icon-mail4 {
+		background-image: url(../../../assets/images/color-icons/mail4.png);
+	}
+
+	.color-shortcode a .icon-map {
+		background-image: url(../../../assets/images/color-icons/map.png);
+	}
+
+	.color-shortcode a .icon-medal {
+		background-image: url(../../../assets/images/color-icons/medal.png);
+	}
+
+	.color-shortcode a .icon-mediaplayer {
+		background-image: url(../../../assets/images/color-icons/mediaplayer.png);
+	}
+
+	.color-shortcode a .icon-minus {
+		background-image: url(../../../assets/images/color-icons/minus.png);
+	}
+
+	.color-shortcode a .icon-minus2 {
+		background-image: url(../../../assets/images/color-icons/minus2.png);
+	}
+
+	.color-shortcode a .icon-mobile {
+		background-image: url(../../../assets/images/color-icons/mobile.png);
+	}
+
+	.color-shortcode a .icon-mobile2 {
+		background-image: url(../../../assets/images/color-icons/mobile2.png);
+	}
+
+	.color-shortcode a .icon-money {
+		background-image: url(../../../assets/images/color-icons/money.png);
+	}
+
+	.color-shortcode a .icon-money2 {
+		background-image: url(../../../assets/images/color-icons/money2.png);
+	}
+
+	.color-shortcode a .icon-money3 {
+		background-image: url(../../../assets/images/color-icons/money3.png);
+	}
+
+	.color-shortcode a .icon-movies {
+		background-image: url(../../../assets/images/color-icons/movies.png);
+	}
+
+	.color-shortcode a .icon-music {
+		background-image: url(../../../assets/images/color-icons/music.png);
+	}
+
+	.color-shortcode a .icon-music2 {
+		background-image: url(../../../assets/images/color-icons/music2.png);
+	}
+
+	.color-shortcode a .icon-newspaper {
+		background-image: url(../../../assets/images/color-icons/newspaper.png);
+	}
+
+	.color-shortcode a .icon-note {
+		background-image: url(../../../assets/images/color-icons/note.png);
+	}
+
+	.color-shortcode a .icon-notebook {
+		background-image: url(../../../assets/images/color-icons/notebook.png);
+	}
+
+	.color-shortcode a .icon-notice {
+		background-image: url(../../../assets/images/color-icons/notice.png);
+	}
+
+	.color-shortcode a .icon-notice2 {
+		background-image: url(../../../assets/images/color-icons/notice2.png);
+	}
+
+	.color-shortcode a .icon-notify {
+		background-image: url(../../../assets/images/color-icons/notify.png);
+	}
+
+	.color-shortcode a .icon-openit {
+		background-image: url(../../../assets/images/color-icons/openit.png);
+	}
+
+	.color-shortcode a .icon-options {
+		background-image: url(../../../assets/images/color-icons/options.png);
+	}
+
+	.color-shortcode a .icon-osvista {
+		background-image: url(../../../assets/images/color-icons/osvista.png);
+	}
+
+	.color-shortcode a .icon-oswin7 {
+		background-image: url(../../../assets/images/color-icons/oswin7.png);
+	}
+
+	.color-shortcode a .icon-osx {
+		background-image: url(../../../assets/images/color-icons/osx.png);
+	}
+
+	.color-shortcode a .icon-pause {
+		background-image: url(../../../assets/images/color-icons/pause.png);
+	}
+
+	.color-shortcode a .icon-pencil {
+		background-image: url(../../../assets/images/color-icons/pencil.png);
+	}
+
+	.color-shortcode a .icon-piechart {
+		background-image: url(../../../assets/images/color-icons/piechart.png);
+	}
+
+	.color-shortcode a .icon-pin {
+		background-image: url(../../../assets/images/color-icons/pin.png);
+	}
+
+	.color-shortcode a .icon-pin-red {
+		background-image: url(../../../assets/images/color-icons/pin-red.png);
+	}
+
+	.color-shortcode a .icon-plant {
+		background-image: url(../../../assets/images/color-icons/plant.png);
+	}
+
+	.color-shortcode a .icon-plant2 {
+		background-image: url(../../../assets/images/color-icons/plant2.png);
+	}
+
+	.color-shortcode a .icon-play {
+		background-image: url(../../../assets/images/color-icons/play.png);
+	}
+
+	.color-shortcode a .icon-plus {
+		background-image: url(../../../assets/images/color-icons/plus.png);
+	}
+
+	.color-shortcode a .icon-plus2 {
+		background-image: url(../../../assets/images/color-icons/plus2.png);
+	}
+
+	.color-shortcode a .icon-plus3 {
+		background-image: url(../../../assets/images/color-icons/plus3.png);
+	}
+
+	.color-shortcode a .icon-podcast {
+		background-image: url(../../../assets/images/color-icons/podcast.png);
+	}
+
+	.color-shortcode a .icon-print {
+		background-image: url(../../../assets/images/color-icons/print.png);
+	}
+
+	.color-shortcode a .icon-project {
+		background-image: url(../../../assets/images/color-icons/project.png);
+	}
+
+	.color-shortcode a .icon-project2 {
+		background-image: url(../../../assets/images/color-icons/project2.png);
+	}
+
+	.color-shortcode a .icon-public {
+		background-image: url(../../../assets/images/color-icons/public.png);
+	}
+
+	.color-shortcode a .icon-question {
+		background-image: url(../../../assets/images/color-icons/question.png);
+	}
+
+	.color-shortcode a .icon-reader {
+		background-image: url(../../../assets/images/color-icons/reader.png);
+	}
+
+	.color-shortcode a .icon-receipt-text {
+		background-image: url(../../../assets/images/color-icons/receipt-text.png);
+	}
+
+	.color-shortcode a .icon-refresh {
+		background-image: url(../../../assets/images/color-icons/refresh.png);
+	}
+
+	.color-shortcode a .icon-rewind {
+		background-image: url(../../../assets/images/color-icons/rewind.png);
+	}
+
+	.color-shortcode a .icon-rss {
+		background-image: url(../../../assets/images/color-icons/rss.png);
+	}
+
+	.color-shortcode a .icon-rss2 {
+		background-image: url(../../../assets/images/color-icons/rss2.png);
+	}
+
+	.color-shortcode a .icon-save {
+		background-image: url(../../../assets/images/color-icons/save.png);
+	}
+
+	.color-shortcode a .icon-script {
+		background-image: url(../../../assets/images/color-icons/script.png);
+	}
+
+	.color-shortcode a .icon-script-text {
+		background-image: url(../../../assets/images/color-icons/script-text.png);
+	}
+
+	.color-shortcode a .icon-search {
+		background-image: url(../../../assets/images/color-icons/search.png);
+	}
+
+	.color-shortcode a .icon-search2 {
+		background-image: url(../../../assets/images/color-icons/search2.png);
+	}
+
+	.color-shortcode a .icon-search3 {
+		background-image: url(../../../assets/images/color-icons/search3.png);
+	}
+
+	.color-shortcode a .icon-server {
+		background-image: url(../../../assets/images/color-icons/server.png);
+	}
+
+	.color-shortcode a .icon-shield {
+		background-image: url(../../../assets/images/color-icons/shield.png);
+	}
+
+	.color-shortcode a .icon-shipping {
+		background-image: url(../../../assets/images/color-icons/shipping.png);
+	}
+
+	.color-shortcode a .icon-shopping {
+		background-image: url(../../../assets/images/color-icons/shopping.png);
+	}
+
+	.color-shortcode a .icon-shopping2 {
+		background-image: url(../../../assets/images/color-icons/shopping2.png);
+	}
+
+	.color-shortcode a .icon-shopping3 {
+		background-image: url(../../../assets/images/color-icons/shopping3.png);
+	}
+
+	.color-shortcode a .icon-sign-post {
+		background-image: url(../../../assets/images/color-icons/sign-post.png);
+	}
+
+	.color-shortcode a .icon-slide {
+		background-image: url(../../../assets/images/color-icons/slide.png);
+	}
+
+	.color-shortcode a .icon-star {
+		background-image: url(../../../assets/images/color-icons/star.png);
+	}
+
+	.color-shortcode a .icon-star2 {
+		background-image: url(../../../assets/images/color-icons/star2.png);
+	}
+
+	.color-shortcode a .icon-star3 {
+		background-image: url(../../../assets/images/color-icons/star3.png);
+	}
+
+	.color-shortcode a .icon-stats {
+		background-image: url(../../../assets/images/color-icons/stats.png);
+	}
+
+	.color-shortcode a .icon-status {
+		background-image: url(../../../assets/images/color-icons/status.png);
+	}
+
+	.color-shortcode a .icon-sticky {
+		background-image: url(../../../assets/images/color-icons/sticky.png);
+	}
+
+	.color-shortcode a .icon-stop2 {
+		background-image: url(../../../assets/images/color-icons/stop2.png);
+	}
+
+	.color-shortcode a .icon-stoplight {
+		background-image: url(../../../assets/images/color-icons/stoplight.png);
+	}
+
+	.color-shortcode a .icon-sun {
+		background-image: url(../../../assets/images/color-icons/sun.png);
+	}
+
+	.color-shortcode a .icon-table {
+		background-image: url(../../../assets/images/color-icons/table.png);
+	}
+
+	.color-shortcode a .icon-tag {
+		background-image: url(../../../assets/images/color-icons/tag.png);
+	}
+
+	.color-shortcode a .icon-tick {
+		background-image: url(../../../assets/images/color-icons/tick.png);
+	}
+
+	.color-shortcode a .icon-tick2 {
+		background-image: url(../../../assets/images/color-icons/tick2.png);
+	}
+
+	.color-shortcode a .icon-tick3 {
+		background-image: url(../../../assets/images/color-icons/tick3.png);
+	}
+
+	.color-shortcode a .icon-time {
+		background-image: url(../../../assets/images/color-icons/time.png);
+	}
+
+	.color-shortcode a .icon-twitter {
+		background-image: url(../../../assets/images/color-icons/twitter.png);
+	}
+
+	.color-shortcode a .icon-ui {
+		background-image: url(../../../assets/images/color-icons/ui.png);
+	}
+
+	.color-shortcode a .icon-universal {
+		background-image: url(../../../assets/images/color-icons/universal.png);
+	}
+
+	.color-shortcode a .icon-user {
+		background-image: url(../../../assets/images/color-icons/user.png);
+	}
+
+	.color-shortcode a .icon-user-anon {
+		background-image: url(../../../assets/images/color-icons/user-anon.png);
+	}
+
+	.color-shortcode a .icon-user-female {
+		background-image: url(../../../assets/images/color-icons/user-female.png);
+	}
+
+	.color-shortcode a .icon-user-male {
+		background-image: url(../../../assets/images/color-icons/user-male.png);
+	}
+
+	.color-shortcode a .icon-users {
+		background-image: url(../../../assets/images/color-icons/users.png);
+	}
+
+	.color-shortcode a .icon-video {
+		background-image: url(../../../assets/images/color-icons/video.png);
+	}
+
+	.color-shortcode a .icon-video-hd {
+		background-image: url(../../../assets/images/color-icons/video-hd.png);
+	}
+
+	.color-shortcode a .icon-video-sd {
+		background-image: url(../../../assets/images/color-icons/video-sd.png);
+	}
+
+	.color-shortcode a .icon-wallet {
+		background-image: url(../../../assets/images/color-icons/wallet.png);
+	}
+
+	.color-shortcode a .icon-wand {
+		background-image: url(../../../assets/images/color-icons/wand.png);
+	}
+
+	.color-shortcode a .icon-warning {
+		background-image: url(../../../assets/images/color-icons/warning.png);
+	}
+
+	.color-shortcode a .icon-warning2 {
+		background-image: url(../../../assets/images/color-icons/warning2.png);
+	}
+
+	.color-shortcode a .icon-web-download {
+		background-image: url(../../../assets/images/color-icons/web-download.png);
+	}
+
+	.color-shortcode a .icon-web-link {
+		background-image: url(../../../assets/images/color-icons/web-link.png);
+	}
+
+	.color-shortcode a .icon-web-shortcut {
+		background-image: url(../../../assets/images/color-icons/web-shortcut.png);
+	}
+
+	.color-shortcode a .icon-website {
+		background-image: url(../../../assets/images/color-icons/website.png);
+	}
+
+	.color-shortcode a .icon-window {
+		background-image: url(../../../assets/images/color-icons/window.png);
+	}
+
+	.color-shortcode a .icon-xmas {
+		background-image: url(../../../assets/images/color-icons/xmas.png);
+	}
+
+	.color-shortcode a .icon-zip {
+		background-image: url(../../../assets/images/color-icons/zip.png);
+	}
+
+	.color-shortcode a .icon-zip2 {
+		background-image: url(../../../assets/images/color-icons/zip2.png);
+	}
+
+	.color-shortcode a .icon-zoom {
+		background-image: url(../../../assets/images/color-icons/zoom.png);
+	}
+
+	.color-shortcode a .icon-zoom {
+		background-image: url(../../../assets/images/color-icons/zoom.png);
+	}
+
+	.color-shortcode a .icon-zoomin {
+		background-image: url(../../../assets/images/color-icons/zoomin.png);
+	}
+
+	.color-shortcode a .icon-zoomout {
+		background-image: url(../../../assets/images/color-icons/zoomout.png);
+	}
+
+
+
+/********************************
+*	[icon] Entypo B&W Icons
+*********************************/
+
+	.icon-shortcode a .span-icon {
+		display: inline-block;
+		width: 20px;
+		height: 20px;
+		background-repeat: no-repeat;
+		background-position: center center;
+		line-height: 21px;
+	}
+
+	.icon-shortcode a .icon-phone  {
+		background-image: url("../../../assets/images/icons/001.png");
+	}
+	
+	.icon-shortcode a .icon-mobile {
+		background-image: url("../../../assets/images/icons/002.png");
+	}
+
+	.icon-shortcode a .icon-mouse   {
+		background-image: url("../../../assets/images/icons/003.png");
+	}
+
+
+	.icon-shortcode a .icon-address {
+		background-image: url("../../../assets/images/icons/004.png");
+	}
+	
+	.icon-shortcode a .icon-email {
+		background-image: url("../../../assets/images/icons/005.png");
+	}
+
+	.icon-shortcode a .icon-write   {
+		background-image: url("../../../assets/images/icons/006.png");
+	}
+
+	.icon-shortcode a .icon-attach {
+		background-image: url("../../../assets/images/icons/007.png");
+	}
+	
+	
+	.icon-shortcode a  .icon-reply    {
+		background-image: url("../../../assets/images/icons/008.png");
+	}
+	
+	.icon-shortcode a  .icon-replyto   {
+		background-image: url("../../../assets/images/icons/009.png");
+	}
+	
+	.icon-shortcode a .icon-forward  {
+		background-image: url("../../../assets/images/icons/010.png");
+	}
+	
+	.icon-shortcode a .icon-contact {
+		background-image: url("../../../assets/images/icons/011.png");
+	}
+	
+	.icon-shortcode a  .icon-contacts {
+		background-image: url("../../../assets/images/icons/012.png");
+	}
+	
+	.icon-shortcode a  .icon-addcontact  {
+		background-image: url("../../../assets/images/icons/013.png");
+	}
+	
+	.icon-shortcode a  .icon-contactcard  {
+		background-image: url("../../../assets/images/icons/014.png");
+	}
+	
+	.icon-shortcode a  .icon-export {
+		background-image: url("../../../assets/images/icons/015.png");
+	}
+	
+	.icon-shortcode a  .icon-location    {
+		background-image: url("../../../assets/images/icons/016.png");
+	}
+	
+	.icon-shortcode a  .icon-map    {
+		background-image: url("../../../assets/images/icons/017.png");
+	}
+	
+	.icon-shortcode a  .icon-compass   {
+		background-image: url("../../../assets/images/icons/018.png");
+	}
+	
+	.icon-shortcode a  .icon-direction   {
+		background-image: url("../../../assets/images/icons/019.png");
+	}
+	
+	.icon-shortcode a  .icon-center    {
+		background-image: url("../../../assets/images/icons/020.png");
+	}
+	
+	.icon-shortcode a  .icon-share   {
+		background-image: url("../../../assets/images/icons/021.png");
+	}
+	
+	.icon-shortcode a  .icon-heart    {
+		background-image: url("../../../assets/images/icons/022.png");
+	}
+	
+	.icon-shortcode a  .icon-star    {
+		background-image: url("../../../assets/images/icons/023.png");
+	}
+	
+	.icon-shortcode a  .icon-like    {
+		background-image: url("../../../assets/images/icons/024.png");
+	}
+	
+	.icon-shortcode a  .icon-chat    {
+		background-image: url("../../../assets/images/icons/025.png");
+	}
+	
+	.icon-shortcode a  .icon-comment    {
+		background-image: url("../../../assets/images/icons/026.png");
+	}
+	
+	.icon-shortcode a  .icon-quote    {
+		background-image: url("../../../assets/images/icons/027.png");
+	}
+	
+	.icon-shortcode a  .icon-print   {
+		background-image: url("../../../assets/images/icons/028.png");
+	}
+	
+	.icon-shortcode a  .icon-alert    {
+		background-image: url("../../../assets/images/icons/029.png");
+	}
+	
+	.icon-shortcode a  .icon-link   {
+		background-image: url("../../../assets/images/icons/030.png");
+	}
+	
+	.icon-shortcode a  .icon-flag    {
+		background-image: url("../../../assets/images/icons/031.png");
+	}
+	
+	.icon-shortcode a  .icon-settings    {
+		background-image: url("../../../assets/images/icons/032.png");
+	}
+	
+	.icon-shortcode a  .icon-search   {
+		background-image: url("../../../assets/images/icons/033.png");
+	}
+	
+	.icon-shortcode a  .icon-top-list    {
+		background-image: url("../../../assets/images/icons/034.png");
+	}
+	
+	.icon-shortcode a  .icon-offer-price    {
+		background-image: url("../../../assets/images/icons/035.png");
+	}
+	
+	.icon-shortcode a .icon-camera   {
+		background-image: url("../../../assets/images/icons/036.png");
+	}
+	
+	.icon-shortcode a  .icon-sleep    {
+		background-image: url("../../../assets/images/icons/037.png");
+	}
+	
+	.icon-shortcode a  .icon-palette    {
+		background-image: url("../../../assets/images/icons/038.png");
+	}
+	
+	.icon-shortcode a  .icon-leaf    {
+		background-image: url("../../../assets/images/icons/039.png");
+	}
+	
+	.icon-shortcode a  .icon-music    {
+		background-image: url("../../../assets/images/icons/040.png");
+	}
+	
+	.icon-shortcode a  .icon-shopping    {
+		background-image: url("../../../assets/images/icons/041.png");
+	}
+	
+	.icon-shortcode a  .icon-flight    {
+		background-image: url("../../../assets/images/icons/042.png");
+	}
+	
+	.icon-shortcode a  .icon-life-buoy    {
+		background-image: url("../../../assets/images/icons/043.png");
+	}
+	
+	.icon-shortcode a  .icon-google    {
+		background-image: url("../../../assets/images/icons/044.png");
+	}
+	
+	.icon-shortcode a  .icon-view-eye   {
+		background-image: url("../../../assets/images/icons/045.png");
+	}
+	
+	.icon-shortcode a  .icon-time-clock   {
+		background-image: url("../../../assets/images/icons/046.png");
+	}
+	
+	.icon-shortcode a  .icon-mic    {
+		background-image: url("../../../assets/images/icons/047.png");
+	}
+	
+	.icon-shortcode a .icon-calendar    {
+		background-image: url("../../../assets/images/icons/048.png");
+	}
+	
+	.icon-shortcode a  .icon-flash    {
+		background-image: url("../../../assets/images/icons/049.png");
+	}
+	
+	.icon-shortcode a  .icon-time-glass    {
+		background-image: url("../../../assets/images/icons/050.png");
+	}
+	
+	.icon-shortcode a  .icon-rss   {
+		background-image: url("../../../assets/images/icons/051.png");
+	}
+	
+	.icon-shortcode a  .icon-broadcast    {
+		background-image: url("../../../assets/images/icons/052.png");
+	}
+	
+	.icon-shortcode a .icon-lock   {
+		background-image: url("../../../assets/images/icons/053.png");
+	}
+	
+	.icon-shortcode a .icon-unlocked    {
+		background-image: url("../../../assets/images/icons/054.png");
+	}
+	
+	.icon-shortcode a  .icon-check-ok    {
+		background-image: url("../../../assets/images/icons/055.png");
+	}
+	
+	.icon-shortcode a  .icon-check-not  {
+		background-image: url("../../../assets/images/icons/056.png");
+	}
+	
+	.icon-shortcode a  .icon-minus-circle    {
+		background-image: url("../../../assets/images/icons/057.png");
+	}
+	
+	.icon-shortcode a  .icon-plus-circle   {
+		background-image: url("../../../assets/images/icons/058.png");
+	}
+	
+	.icon-shortcode a  .icon-close-delete    {
+		background-image: url("../../../assets/images/icons/059.png");
+	}
+	
+	.icon-shortcode a  .icon-minus    {
+		background-image: url("../../../assets/images/icons/060.png");
+	}
+	
+	.icon-shortcode a  .icon-plus    {
+		background-image: url("../../../assets/images/icons/061.png");
+	}
+	
+	.icon-shortcode a  .icon-block   {
+		background-image: url("../../../assets/images/icons/062.png");
+	}
+	
+	.icon-shortcode a  .icon-information    {
+		background-image: url("../../../assets/images/icons/063.png");
+	}
+	
+	.icon-shortcode a  .icon-information-circle   {
+		background-image: url("../../../assets/images/icons/064.png");
+	}
+	
+	.icon-shortcode a  .icon-help   {
+		background-image: url("../../../assets/images/icons/065.png");
+	}
+	
+	.icon-shortcode a  .icon-help-circle   {
+		background-image: url("../../../assets/images/icons/066.png");
+	}
+	
+	.icon-shortcode a  .icon-warning   {
+		background-image: url("../../../assets/images/icons/067.png");
+	}
+	
+	.icon-shortcode a  .icon-reload-cw    {
+		background-image: url("../../../assets/images/icons/068.png");
+	}
+	
+	.icon-shortcode a  .icon-reload-ccw   {
+		background-image: url("../../../assets/images/icons/069.png");
+	}
+	
+	.icon-shortcode a .icon-shuffle    {
+		background-image: url("../../../assets/images/icons/070.png");
+	}
+	
+	.icon-shortcode a  .icon-back  {
+		background-image: url("../../../assets/images/icons/071.png");
+	}
+	
+	.icon-shortcode a  .icon-level   {
+		background-image: url("../../../assets/images/icons/072.png");
+	}
+	
+	.icon-shortcode a  .icon-retweet    {
+		background-image: url("../../../assets/images/icons/073.png");
+	}
+	
+	.icon-shortcode a  .icon-list   {
+		background-image: url("../../../assets/images/icons/074.png");
+	}
+	
+	.icon-shortcode a  .icon-text-document   {
+		background-image: url("../../../assets/images/icons/077.png");
+	}
+	
+	.icon-shortcode a  .icon-document   {
+		background-image: url("../../../assets/images/icons/078.png");
+	}
+	
+	.icon-shortcode a  .icon-documents   {
+		background-image: url("../../../assets/images/icons/079.png");
+	}
+	
+	.icon-shortcode a  .icon-landscape-document  {
+		background-image: url("../../../assets/images/icons/080.png");
+	}
+
+
+	.icon-shortcode a  .icon-add-to-list   {
+		background-image: url("../../../assets/images/icons/075.png");
+	}
+	
+	.icon-shortcode a  .icon-image-list   {
+		background-image: url("../../../assets/images/icons/076.png");
+	}
+	
+	.icon-shortcode a  .icon-text-    {
+		background-image: url("../../../assets/images/icons/077.png");
+	}
+	
+	.icon-shortcode a  .icon-    {
+		background-image: url("../../../assets/images/icons/078.png");
+	}
+	
+	.icon-shortcode a  .icon-s    {
+		background-image: url("../../../assets/images/icons/079.png");
+	}
+	
+	.icon-shortcode a  .icon-landscape-    {
+		background-image: url("../../../assets/images/icons/080.png");
+	}
+	
+	.icon-shortcode a  .icon-images    {
+		background-image: url("../../../assets/images/icons/081.png");
+	}
+	
+	.icon-shortcode a  .icon-movies    {
+		background-image: url("../../../assets/images/icons/082.png");
+	}
+	
+	.icon-shortcode a  .icon-songs   {
+		background-image: url("../../../assets/images/icons/083.png");
+	}
+	
+	.icon-shortcode a  .icon-folder  {
+		background-image: url("../../../assets/images/icons/084.png");
+	}
+	
+	.icon-shortcode a  .icon-archive    {
+		background-image: url("../../../assets/images/icons/085.png");
+	}
+	
+	.icon-shortcode a  .icon-trach    {
+		background-image: url("../../../assets/images/icons/086.png");
+	}
+	
+	.icon-shortcode a  .icon-upload    {
+		background-image: url("../../../assets/images/icons/087.png");
+	}
+	
+	.icon-shortcode a .icon-download   {
+		background-image: url("../../../assets/images/icons/088.png");
+	}
+	
+	.icon-shortcode a  .icon-download-to-ssd   {
+		background-image: url("../../../assets/images/icons/089.png");
+	}
+	
+	.icon-shortcode a  .icon-cloud  {
+		background-image: url("../../../assets/images/icons/090.png");
+	}
+	
+	.icon-shortcode a  .icon-upload-to-cloud    {
+		background-image: url("../../../assets/images/icons/091.png");
+	}
+	
+	.icon-shortcode a  .icon-play    {
+		background-image: url("../../../assets/images/icons/092.png");
+	}
+	
+	.icon-shortcode a  .icon-pause    {
+		background-image: url("../../../assets/images/icons/093.png");
+	}
+	
+	.icon-shortcode a  .icon-record    {
+		background-image: url("../../../assets/images/icons/094.png");
+	}
+	
+	.icon-shortcode a  .icon-stop    {
+		background-image: url("../../../assets/images/icons/095.png");
+	}
+	
+	.icon-shortcode a  .icon-fast-forward    {
+		background-image: url("../../../assets/images/icons/096.png");
+	}
+	
+	.icon-shortcode a  .icon-fast-backward    {
+		background-image: url("../../../assets/images/icons/097.png");
+	}
+	
+	.icon-shortcode a  .icon-jump-to-start    {
+		background-image: url("../../../assets/images/icons/098.png");
+	}
+	
+	.icon-shortcode a  .icon-jump-to-end    {
+		background-image: url("../../../assets/images/icons/099.png");
+	}
+	
+	.icon-shortcode a  .icon-full-screen    {
+		background-image: url("../../../assets/images/icons/100.png");
+	}
+	
+	.icon-shortcode a  .icon-small-screen   {
+		background-image: url("../../../assets/images/icons/101.png");
+	}
+	
+	.icon-shortcode a .icon-volume   {
+		background-image: url("../../../assets/images/icons/102.png");
+	}
+	
+	.icon-shortcode a  .icon-sound  {
+		background-image: url("../../../assets/images/icons/103.png");
+	}
+	
+	.icon-shortcode a .icon-mute    {
+		background-image: url("../../../assets/images/icons/104.png");
+	}
+	
+	.icon-shortcode a  .icon-bold-left-arrow   {
+		background-image: url("../../../assets/images/icons/105.png");
+	}
+	
+	.icon-shortcode a .icon-home  {
+		background-image: url("../../../assets/images/icons/117.png");
+	}
+	
+	.icon-shortcode a  .icon-popup    {
+		background-image: url("../../../assets/images/icons/120.png");
+	}
+	
+	.icon-shortcode a  .icon-classic-search   {
+		background-image: url("../../../assets/images/icons/121.png");
+	}
+	
+	.icon-shortcode a  .icon-sweden   {
+		background-image: url("../../../assets/images/icons/123.png");
+	}
+	
+	.icon-shortcode a  .icon-green-check   {
+		background-image: url("../../../assets/images/icons/green-check.png");
+	}
+	
+	.icon-shortcode a  .icon-red-error    {
+		background-image: url("../../../assets/images/icons/red-error.png");
+	}
+	
+	.icon-shortcode a  .icon-featured   {
+		background-image: url("../../../assets/images/icons/featured.png");
+	}

@@ -1,0 +1,1 @@
+		jQuery(document).ready(function($){				$(".tooltip-top").tipTip({maxWidth: "auto", edgeOffset: 5, defaultPosition: "top"});							});
